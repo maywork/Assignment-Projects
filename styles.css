@@ -4,7 +4,6 @@
   margin: 0 auto;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  color: #272727;
 }
 
 .headline {
@@ -21,14 +20,16 @@
 }
 
 .headline-text {
-  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 p {
@@ -37,7 +38,7 @@ p {
   color: #27272799;
   line-height: 1.5;
   margin: 0 0 30px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 
 .head-flower img {
@@ -45,11 +46,122 @@ p {
 }
 
 .shop-btn {
-  display: inline-block;
+  margin-left: 0;
   padding: 15px 35px;
   background-color: #e55473;
   color: #fff;
   font-weight: 700;
   border: none;
   border-radius: 5px;
+}
+
+/* sale content styles */
+.sale-content {
+  height: 50vh;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.sale-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sale-text h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+.sale-text p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.sale-text span {
+  font-size: 2.5rem;
+  color: #e55473;
+}
+
+.signup-btn {
+  padding: 15px 35px;
+  background-color: #e55473;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+/* instagram gallery styles */
+.insta-gallery {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 25px;
+}
+
+.insta-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  text-align: center;
+}
+
+.insta-text h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+.insta-text p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.insta-gallery img {
+  padding: 0 15px 100px;
+}
+
+/* footer styles */
+.footer-content {
+  height: 45vh;
+  background: #111010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer-text h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+.footer-text,
+.footer-text p {
+  color: rgba(255, 255, 255, 0.9);
+  width: 500px;
+}
+
+.footer-text span {
+  font-size: 2.5rem;
+  color: #e55473;
+}
+
+.footer-text small {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.4);
 }
