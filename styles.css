@@ -151,7 +151,7 @@ p {
 
 /* sale content styles */
 .sale-content {
-  height: 50vh;
+  height: 65vh;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.08);
   display: flex;
@@ -167,6 +167,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-right: -100px;
 }
 
 .sale-text h2 {
@@ -186,11 +187,16 @@ p {
   color: #e55473;
 }
 
+.sale-img {
+  padding: 100px 0;
+  margin-top: 65px;
+}
+
 /* instagram gallery styles */
 .insta-gallery {
   display: flex;
   flex-direction: column;
-  padding: 80px 25px 30px;
+  padding: 80px 25px 15px;
 }
 
 .insta-gallery img {
@@ -199,7 +205,8 @@ p {
 }
 
 .insta-text,
-.featured-text {
+.featured-text,
+.review-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +214,8 @@ p {
 }
 
 .insta-text h2,
-.featured-text h2 {
+.featured-text h2,
+.review-header h2 {
   font-size: 2rem;
   font-weight: 800;
   line-height: 1.2;
@@ -225,6 +233,58 @@ p {
   justify-content: space-between;
   margin: 0 auto;
   /* background-color: #e55473; */
+}
+
+/* reviews section styles */
+.review-header {
+  margin: 50px 0 30px;
+  position: relative;
+}
+
+.review-card {
+  width: 73%;
+  height: 45vh;
+  background-color: #e5547311;
+  border-radius: 8px;
+}
+
+.review-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.reviewer {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.review-text > .line {
+  margin: -10px 0 10px;
+  width: 150px;
+  height: 1px;
+  border: 1px solid #e55473;
+  border-color: #e55473 transparent transparent transparent;
+}
+
+.review-para {
+  width: 450px;
+  font-size: 0.9rem;
+  color: #27272799;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.checked {
+  color: #e55473;
+}
+
+.arrows {
+  margin-top: -50px;
 }
 
 /* deals styles */
