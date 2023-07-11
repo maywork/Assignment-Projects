@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #272727;
+}
+
+.headline {
+  /* height: 100vh; */
+  background-color: #e554731a;
+}
+
+.head-content {
+  max-width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 0 10px;
+}
+
+.headline-text {
+  max-width: 45%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 450px;
+  font-size: 0.9rem;
+  color: #27272799;
+  line-height: 1.5;
+  margin: 0 0 30px;
+  padding-right: 40px;
+}
+
+.head-flower img {
+  margin-bottom: -3px;
+}
+
+.shop-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #e55473;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
