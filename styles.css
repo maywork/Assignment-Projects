@@ -50,7 +50,7 @@ p {
   color: #fff;
   font-weight: 700;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .head-btn {
@@ -105,13 +105,48 @@ p {
 }
 
 .card-cap {
-  margin-top: 430px;
+  margin-top: 450px;
   text-align: center;
   color: #272727;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+
+/* banner styles */
+.banner {
+  width: 72%;
+  height: 12rem;
+  background: rgba(39, 39, 39, 0.05);
+  margin-bottom: 100px;
+  padding: 30px 0 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner .banner-icons {
+  width: 73vw;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 40px 0 10px;
+}
+
+.banner-icon img {
+  margin-left: 100px;
+  width: 60px;
+}
+
+.banner-icon p {
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 600;
 }
 
 /* sale content styles */
